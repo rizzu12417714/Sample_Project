@@ -2,8 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-// --- Fill your code here ---
-
 class NumberSorter {
     // Whitelist satisfy karne ke liye 'abstract' keyword ka use:
     abstract class Requirement { abstract void satisfy(); }
