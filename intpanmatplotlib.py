@@ -9,8 +9,10 @@ import numpy as np
 # print(s<0)
 
 
+
 # s2 = pd.Series([68, 83, 112, 68])
 # print(s2[[2]])
+
 
 
 # s2 = pd.Series([68, 83, 112, 68] , index=["alice", "bob", "charles", "dwrwin"] )

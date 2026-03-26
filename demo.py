@@ -184,10 +184,12 @@ def update(region):
         dff, x="Sales", y="Profit", size="Quantity", color="Category"
     )
 
-    monthly_region = px.line(
-        dff.groupby(["Month","Region"])["Sales"].sum().reset_index(),
-        x="Month", y="Sales", color="Region"
-    )
+
+    # monthly_region = px.line(
+    #     dff.groupby(["Month","Region"])["Sales"].sum().reset_index(),
+    #     x="Month", y="Sales", color="Region"
+    # )
+
 
     return (kpi, sales_category, profit_segment, monthly,
             region_sales, top_products, scatter,
